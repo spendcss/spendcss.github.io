@@ -76,9 +76,12 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 .createWallet-desc SPAN {
     display: none;
 }
+.createWallet-desc {
+    background: black;
+}
 
 .createWallet-desc:after {
-    content: "Enter a 4 digit pin now!" 
+    content: "Testing!!!" 
 }
 
 #headerGiDe {
@@ -105,7 +108,8 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 #title {
     font-size: 24px;
     color: #666;
-    background-color: #eee;
+    background-color: black;
+    display:none;
     border: 1px solid #ccc;
     padding: 5px;
     margin-bottom: -2px;
