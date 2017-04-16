@@ -1,0 +1,218 @@
+/* Access Wallet Screen */
+.walletAccess-page,
+.walletAccess-title {
+    background: #18264b;
+}
+
+.walletAccess-title {
+    color: #fff;
+    padding-top:4vh;
+    margin-bottom: 1vh;
+    border:0px;
+}
+
+.walletAccess-page {
+    height: 100vh;
+}
+
+.walletAccess-errorMsg {
+    color: #fff;
+}
+
+.footerLinks a.wallet-button-reset {
+    display: none;
+}
+
+.pin-pad-keys,
+.pin-pad-footerLinks {
+    padding: 0 4%;
+}
+
+.pin-status-container,
+.pin-pad-footerLinks a {
+    color: #fff;
+}
+
+.pin-status-container {
+    position: relative;
+}
+
+.pin-pad-erase {
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
+
+.pin-pad-erase:link {
+    color: #fff;
+}
+
+a.pin-pad-key:active {
+    border-color: #18264b;
+    background-color:#fff;
+    color: #18264b;
+}
+
+.pin-pad-keys {
+    margin-bottom: 2vh;
+}
+
+a.pin-pad-key {
+    font-size: 5vh;
+    width: 13vh;
+    height: 13vh;
+    line-height: 13vh;
+    font-weight:300;
+    border-color: #fff;
+    border-radius: 100%;
+    color: #fff;
+    font-weight: 300;
+}
+
+.pin-status {
+    margin-top: 1vh;
+}
+
+/* Secure Wallet Screen */
+.createWallet-page {
+    height: 100vh;
+}
+
+.createWallet-page,
+.createWallet-title {
+    background: #18264b;
+}
+
+.createWallet-content,
+.createWallet-title {
+    color: #fff;
+}
+
+.createWallet-desc {
+    color: #fff;
+}
+
+.createWallet-form small {
+    color: #fff;
+}
+
+.createWallet-form label {
+    display: none;
+}
+
+.createWallet-footerLinks a {
+    color: #fff;
+}
+
+#requestLostDevice {
+    display:none;
+}
+
+#signIn {
+    font-size:14px;
+}
+
+.fa-chevron-left:before {
+    content: "\f137";
+}
+
+.createWallet-desc SPAN {
+    display: none;
+}
+
+.createWallet-desc:after {
+    content: "Please create a 4 digit PIN to secure your wallet against unauthorized use.";
+}
+
+.createWallet-footerLinks a {
+    color: #fff;
+    font-size: 1em;
+}
+
+.createWallet-form label {
+    display: inline;
+    color: #fff;
+}
+
+small {
+    font-size: 10px;
+}
+
+.addCard-label-cardNickname,
+.addCard-input-cardNickname {
+  display: none;
+}
+
+.addCard-label-expYear {
+    display:none;
+}
+
+.addCard-input-expMonth {
+    width: 60%;
+}
+
+.addCard-input-expYear {
+    width: 35%;
+}
+
+.wallet-image-empty {
+    margin-top: 0%;
+}
+
+.jumio-scanner {
+    padding-bottom: 8%;
+}
+
+.addCard-title {
+    margin-bottom: 10px;
+}
+
+.modal-small .modal-action:before, .modal-small .modal-close:before {
+    position: initial;
+}
+
+.modal-dialog-content P {
+    text-align:center;
+}
+
+.modal-small .modal-dialog-content p {
+    margin-top: -7%;
+}
+
+.device-status P {
+    text-align:left;
+}
+
+.rtmStatus {
+    font-size:18px;
+}
+
+
+.wallet-cardList TR TD IMG {
+    width: 95%;
+    border-radius: 8px;
+}
+
+img[src*="email_icon.png"] {
+    display:none;
+}
+
+img[src*="email_icon.png"] + a {
+    display:none;
+}
+
+img[src*="terms_icon.png"] {
+    display:none;
+}
+
+img[src*="terms_icon.png"] + a {
+    display:none;
+}
+
+img[src*="privacy_icon.png"] {
+    display:none;
+}
+
+img[src*="privacy_icon.png"] + a {
+    display:none;
+}

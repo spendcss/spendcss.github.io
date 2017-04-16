@@ -1,0 +1,40 @@
+
+/* Rounded pin pad keys and inputs */
+input[type="password"], input[type="tel"], input[type="text"] {
+  border-radius: 15px;
+}
+
+a.pin-pad-key {
+  border-radius: 100%;
+}
+
+/* Cvv, expiration date inputs on the same line */
+.addCard-label-expMonth, .addCard-label-expYear, .addCard-label-cvv {
+  display: none;
+}
+
+.addCard-input-expYear, .addCard-input-expMonth {
+  width: 30%;
+}
+
+.addCard-input-cvv {
+  width: 36%;
+}
+
+.addCard-input-cvv::-webkit-input-placeholder {
+  visibility: visible;
+}
+
+/* Use different fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*custom image*/
+.wallet-image-empty {
+    background: url(https://fitpaycss.github.io/wallet_custom.png) center no-repeat;
+    height: 210px;
+    margin-top: 20%;
+}
