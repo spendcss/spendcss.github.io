@@ -683,3 +683,9 @@ body {
   border-radius: 0px 0px 0px 0px;
   width: 338px;
 }
+
+.walletAccess-title{
+  background: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
