@@ -454,7 +454,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
     transparent;
     padding:15px;
     border:0px;
-    background-color:transparent
+    background-color:rgb(0, 0, 0)
   }
   
   select {
@@ -653,4 +653,11 @@ body {
   top: 20%;
   left:335px
 
+}
+
+.walletAccess-title {
+  background:white;
+  font-size:22px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
