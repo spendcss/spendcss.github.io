@@ -274,19 +274,20 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 #addButton {
   -webkit-appearance: none;
   position: absolute;
-  top: 6%;
+  top: 11%;
   right: 5%;
   border: 0;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  padding: 7px;
-  padding-left: 7px;
+  width: 32px;
+  height: 32px;
+  padding: 6px;
+  padding-left: 6px;
   background: none;
   background-color: #004fbd;
   color: #fff;
   font: 21px/24px Arial, sans-serif;
-  margin-bottom: 10px;
+
+
 }
 
 .btn {
@@ -591,18 +592,29 @@ body {
 .createWallet-page,
 .createWallet-title {
  
-
 }
+
+.rtmStatusIcon{
+	content:url("https://github.com/spendcss/spendcss.github.io/blob/master/green_light.png?raw=true");
+    height: 20px;
+}
+
+.backButton{
+	content:url("https://github.com/spendcss/spendcss.github.io/blob/master/green_light.png?raw=true");
+}
+
 
 .rtmStatus {
   color: white;
   font-size: .7em;
+  top: 10%;
+ 
 
 }
 
 .device-status {
   background: #1d1d1d;
-  border: black;
+  border: black; 
 
 }
 
@@ -613,7 +625,22 @@ body {
 
 }
 
+.cardDetail-menu-title {
+  background: #2b2b2b;
+}
 
+.cardDetail-section-support .cardDetail-menu-body .detail-menu-row a {
+    color: white !important;
+}
 
+.cardDetail-menu-body .detail-menu-row {
+  border: 0.1px solid #1d1d1d;
 
+}
 
+.cardDetail-title {
+  background-color: #383838;
+  color: white;
+  border-bottom: 1px black;
+
+  }
