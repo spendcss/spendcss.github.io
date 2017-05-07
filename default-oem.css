@@ -644,3 +644,12 @@ body {
   border-bottom: 1px black;
 
   }
+
+.cardDetail-button-delete {
+  content:url("https://github.com/spendcss/spendcss.github.io/blob/master/trash_icon%20copy.png?raw=true");
+  height: 30px;
+  width: 30px;
+  top: 20%;
+  left:335px
+
+}
