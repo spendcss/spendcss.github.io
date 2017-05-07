@@ -6,11 +6,11 @@ html, input, select, td, label {font:21px lato;color:#6B6B6B; font-weight: 300}
 /*section {background-color:#fff}*/
 
 input, select {margin-bottom:10px; padding:10px}
-input {color: #666;border-bottom: 1px solid #E8E8E8;border-radius: 5px; width:96%}
+input {color: #666;border-bottom: 1px solid #E8E8E8;border-radius: 5px;width:96%;}
 form div {color:#8A8A8A; margin-bottom: 6px }
 form {background-color: #fcfcfc; padding:15px; border:1px solid #ccc; border-radius: 7px;background-color:#fdfdfd}
 select {-webkit-appearance: none; -moz-appearance: none; appearance: none;padding:7px; background: url(images/arrow.png) no-repeat right 10px center; background-color:#fff; color:#6B6B6B}
-button {background-color:#fff;border:0px solid #ccc;color:#ccc;cursor: pointer;}
+button {background-color: #353535;border:0px solid #ccc;color:#ccc;cursor: pointer;}
 /*table {border:1px solid #ccc; border-radius: 7px; background-color: #fdfdfd; width:98%; margin-left: 1%; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-bottom: 0px}*/
 label {line-height: 30px;}
 H2 {margin:0px 0px 7px 10px;font-size: 28px;font-weight: 300;}
@@ -274,13 +274,13 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 #addButton {
   -webkit-appearance: none;
   position: absolute;
-  top: 16%;
-  right: 4%;
+  top: 11%;
+  right: 5%;
   border: 0;
   border-radius: 50%;
   width: 32px;
   height: 32px;
-  padding: 5px;
+  padding: 6px;
   padding-left: 6px;
   background: none;
   background-color: #004fbd;
@@ -297,7 +297,6 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
   color: #fff;
   font-size: 21px;
   padding: 10px 20px;
-  border: 1px solid #e0e0e0;
   width: 98%;
   font-weight: 300;
 }
@@ -314,7 +313,6 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
   color: #696969;
   font-size: 21px;
   padding: 10px 20px 10px 20px;
-  border: solid #e0e0e0 1px;
   text-decoration: none;
   width: 98%;
   font-weight: 300;
@@ -454,7 +452,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
     transparent;
     padding:15px;
     border:0px;
-    background-color:rgb(0, 0, 0)
+    background-color:transparent
   }
   
   select {
@@ -599,10 +597,6 @@ body {
     height: 20px;
 }
 
-.backButton{
-	background-image:url("https://github.com/spendcss/spendcss.github.io/blob/master/backArrow.png?raw=true");
-   
-}
 
 
 .rtmStatus {
@@ -644,7 +638,7 @@ body {
   color: white;
   border-bottom: 1px black;
 
-  }
+}
 
 .cardDetail-button-delete {
   content:url("https://github.com/spendcss/spendcss.github.io/blob/master/trash_icon%20copy.png?raw=true");
@@ -655,9 +649,37 @@ body {
 
 }
 
-.walletAccess-title {
-  background:white;
-  font-size:22px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+.addCard-title {
+  background: #383838;
+  color:white ;
+  border: black;
+}
+
+.button {
+  background: #3a54f3;
+  border: none ;
+  border-radius: 0px 0px 0px 0px;
+  
+
+}
+
+.addCard-form input {
+  background: white;
+  border: none ;
+  border-radius: 0px 0px 0px 0px;
+
+}
+
+.addCard-input-expMonth {
+  background: white;
+  border: none ;
+  border-radius: 0px 0px 0px 0px;
+  width: 338px;
+}
+
+.addCard-input-expYear {
+    background: white;
+  border: none ;
+  border-radius: 0px 0px 0px 0px;
+  width: 338px;
 }
