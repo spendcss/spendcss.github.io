@@ -274,13 +274,13 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 #addButton {
   -webkit-appearance: none;
   position: absolute;
-  top: 11%;
-  right: 5%;
+  top: 16%;
+  right: 4%;
   border: 0;
   border-radius: 50%;
   width: 32px;
   height: 32px;
-  padding: 6px;
+  padding: 5px;
   padding-left: 6px;
   background: none;
   background-color: #004fbd;
@@ -600,7 +600,8 @@ body {
 }
 
 .backButton{
-	content:url("https://github.com/spendcss/spendcss.github.io/blob/master/green_light.png?raw=true");
+	background-image:url("https://github.com/spendcss/spendcss.github.io/blob/master/backArrow.png?raw=true");
+   
 }
 
 
