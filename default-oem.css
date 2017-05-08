@@ -688,3 +688,16 @@ body {
   padding-bottom: 10px;
   padding-top: 10px;
 }
+
+a.pin-pad-key {
+    display: block;
+    font-size: 4vh;
+    width: 14vh;
+    height: 14vh;
+    line-height: 14vh;
+    margin: 0 auto;
+    background: 0 0;
+    color: #6b6b6b;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
